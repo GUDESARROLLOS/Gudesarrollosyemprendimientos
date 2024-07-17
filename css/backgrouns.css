@@ -13,11 +13,13 @@
     
 }
 
+
 .context h1{
     text-align: center;
     color: #02316d;
     font-size: 35px;
 }
+
 
 
 .area{
@@ -144,3 +146,12 @@
 
 }
 
+@media only screen and (min-width: 768px) {
+
+    .context h1{
+        text-align: center;
+        color: #02316d;
+        font-size: 65px;
+    }
+
+}

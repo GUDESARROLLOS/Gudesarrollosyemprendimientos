@@ -6,27 +6,37 @@
 }
 
 
-.context {
+.title_1 {
     width: 100%;
     position: absolute;
     top: 150px;
 }
 
 
-.context h1{
+.title_1 h1{
     text-align: center;
     color: #02316d;
     font-size: 35px;
 }
 
+.title_2 {
+    width: 100%;
+    position: absolute;
+    top: 150px;
+}
+
+
+.title_2 h1{
+    text-align: center;
+    color: #02316d;
+    font-size: 35px;
+}
 
 .area{
     background: rgba(255, 255, 255, 0.2);
     background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
     width: 100%;
     height:100vh;
-    
-   
 }
 
 .circles{
@@ -44,7 +54,7 @@
     list-style: none;
     width: 20px;
     height: 20px;
-    background: #e0b90a4f;  
+    background: #02306d62;  
     animation: animate 25s linear infinite;
     bottom: -150px;
 }
