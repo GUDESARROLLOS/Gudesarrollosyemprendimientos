@@ -1,62 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 
-@media only screen and (min-width : 480px){
+@media only screen and (max-width : 480px){
 
   body{
     margin:0;
     padding:0;
     min-height: 100vh;
     min-width: 100%;
-   overflow-x:hidden;
+    overflow-x:hidden;
   }
-
   .logo{
-    align-items: center;
-    margin:auto; 
+   margin-left:0;
+   margin-top: 5px;
+    width: 150px;
+   height: auto;
 }
+
+.title_1 h1{
+  font-size: 25px;
+  margin-top: -20%;
+}
+
   .select{
     width: 100%;
+    position: absolute;
     text-align: center;
     margin: auto;
     background-color:transparent;
     justify-content: center;
     align-items: center;
+    margin-top:-125%;
   }
 
   .select_comerciales{
     width: 100%;
+    position: absolute;
     top:110%;
+    margin-top: 20px;
     background-color:transparent;
     justify-content: center;
     align-items: center;
-    display: block;
-  
   }
 
   .text{
     text-align: center;
     color: #02316d;
-    font-size: 65px;
+    font-size: 25px;
 }
 
    .buttons{
-       margin-top: 15px;
+       margin-top: 9px;
        margin-left: -15px;
-       border: none; 
        color: black; 
-       padding: 14px 28px; 
+       padding: 7px 14px; 
        cursor: pointer; 
        border-radius: 5px; 
        background-color: white; 
-       border: 2px solid #007bff;
-       font-size: 35px;
+       border: 1px solid #007bff;
+       font-size: 15px;
    }
    
    .buttons:hover{
        transform: scale(1.2);
    }
+
    .ADFII{
+    display: none;
+   }
+   .ADFII_movile{
     width: 100%;
     height: 100%;
    }
@@ -65,32 +77,29 @@
       display: grid;
       grid-template-areas:
       "description img";
-      grid-template-columns: 0.5fr 1fr;
+      grid-template-columns: 0.3fr 0.5fr;
       grid-gap: 5px;
-      margin-top: 3px;
       justify-content: center;
-      align-items: center;
+      align-items:center;
      } 
+
    .description_footer{
-         font-size: 28px;
+         font-size: 12px;
          color:#fffffff8;
-         margin-top: 25px;
-         margin-right: 25%;
          text-align: center;
          justify-content: center;
+         margin-top: 5px;
+         margin-left: 20px;
      }
   
    .footer_icon{
      display: inline-flex;
-     margin-bottom: 15px;
-     margin-top: 15px;
-    margin-right: 15px;
-    margin-left: 15px;
-     width: 100px;
+     width: 30px;
    }
 
    .footer_1{
-     width: 60%;
+     width: 140%;
+     margin-left: -20px;
    }
 
    .footer{
@@ -100,110 +109,17 @@
    .footer_text{
      text-decoration: none;
      color: #fffdfd;
-     margin-left: -55px;
+   
    }
   }
 
 
   
-@media only screen and (min-width: 768px) {
-
-  body{
-    margin:0;
-    padding:0;
-    min-height: 100vh;
-    min-width: 100%;
-   overflow-x:hidden;
-  }
-
-  .title_2 h1{
-    display: none;
-  }
-
-  .logo{
-    align-items: center;
-    margin:auto; 
+@media only screen and (max-width: 768px) {
+  
 }
-  .select{
-    width: 100%;
-    position: absolute;
-    top: 250px;
-    text-align: center;
-  }
-
-  .select_comerciales{
-    width: 100%;
-    position: absolute;
-    text-align: center;
-    top:85%;
-  }
-
-  .text{
-    text-align: center;
-    color: #02316d;
-    font-size: 65px;
-}
-
-   .buttons{
-       margin-top: 15px;
-       margin-left: -15px;
-       border: none; 
-       color: black; 
-       padding: 14px 28px; 
-       cursor: pointer; 
-       border-radius: 5px; 
-       background-color: white; 
-       border: 2px solid #007bff;
-       font-size: 35px;
-   }
-   
-   .buttons:hover{
-       transform: scale(1.2);
-   }
-    
-   .container_f {
-    display: grid;
-    grid-template-areas:
-    "description img";
-    grid-template-columns: 0.5fr 1fr;
-    grid-gap: 5px;
-   margin-top: 250px;
-    justify-content: center;
-    align-items: center;
-   }
-
-   .description_footer{
-         font-size: 30px;
-         color:#fffffff8;
-         margin-top: 25px;
-         margin-left: -95px;
-     }
-    
-   .footer_icon{
-     display: inline-flex;
-     margin-bottom: 15px;
-     margin-top: 15px;
-     width: 60px;
-      margin-right: 15px;
-      margin-left: 15px;
-   }
-
-   .footer_1{
-     width: 80%;
-   }
-
-   .footer{
-     background-color: #02316d;
-   }
-   
-   .footer_text{
-     text-decoration: none;
-     color: #fffdfd;
-   }
-  }
-    
+  
     @media only screen and (min-width: 1200px) {
-
       body{
         margin:0;
         padding:0;
@@ -222,7 +138,6 @@
     }
       .select{
         width: 100%;
-        top: 28%;
         text-align: center;
         margin: auto;
         background-color:transparent;
@@ -237,7 +152,7 @@
         justify-content: center;
         align-items: center;
         display: block;
-      
+        margin-top: 100px;
       }
     
       .text{
@@ -261,6 +176,9 @@
        
        .buttons:hover{
            transform: scale(1.2);
+       }
+       .ADFII_movile{
+        display: none;
        }
        .ADFII{
         width: 100%;
@@ -308,14 +226,6 @@
          color: #fffdfd;
          margin-left: -55px;
        }
-  }
 
-
-
-
-
-
-
-
-
-
+      }
+    
