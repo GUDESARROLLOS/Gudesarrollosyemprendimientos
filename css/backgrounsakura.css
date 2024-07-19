@@ -32,7 +32,7 @@
     width: 100%;
     height:100vh;
 }
-
+/*
 .circles{
     position: absolute;
     top: 0;
@@ -144,12 +144,12 @@
 
 }
 
-
+*/
 /*MEDIAS QUERIES PARA SAKURA*/
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 
-@media only screen and (min-width : 480px){
+@media only screen and (max-width : 480px){
 
   body{
     margin:0;
@@ -158,23 +158,23 @@
     min-width: 100%;
    overflow-x:hidden;
   }
-
-
 .plano_container_sakura{
     width: 100%;
     height: 100%;
     border: none;
-    margin-top: -18%;
+    margin-top: -80%;
   }
-  
+
+ /*Ubicacion y descripcion*/ 
    .description_sakura{
-     font-size: 35px;
+     font-size: 12px;
      color:#858585;
      text-align:left;
     justify-content: center;
     align-items: center;
-    margin-left: -50%;
+    margin-left: -30%;
    }      
+   
    .container_sakura img{
     width: 75%;
     height: 90%;
@@ -190,58 +190,63 @@
      align-items: center;
     }
 
-    .listado_sakura{
+/*valores y fotos*/
+    .valores_desktop{
+      display: none;
+    }
+    .listado_sakura_mobile{
         margin-top: 5px;
-        width: 100%;
-        height: 140vh;
+        width: 70vh;
+        height: 170vh;
        }
 
-    .container_slidersakura{
+    .container_slidersakura_mobile{
         display: grid;
         grid-template-areas:
-        "description img";
-        grid-template-columns: 2fr 0.5fr;
+        "img img";
+        grid-template-columns: 2fr;
        justify-content: center;
         align-items: center;
     }
-    .img_sakura{ 
-        width: 100vh;
-        height: 90%;
+    .img_sakura_mobile{ 
+        width:50% ;
+        height: 50%;
         margin: 0;
         padding: 0;
     }
 
+/*footer*/
      .container_fsakura {
       display: grid;
       grid-template-areas:
       "description img";
-      grid-template-columns: 0.5fr 1fr;
+      grid-template-columns: 0.7fr 1fr;
       grid-gap: 5px;
-      margin-top: 10px;
+      margin-top: 5px;
       justify-content: center;
       align-items: center;
      }
 
    .description_footersakura{
-         font-size: 35px;
+         font-size: 12px;
          color:#fffffff8;
-         margin-top: 25px;
-         margin-right: 25%;
+         margin-top: 10px;
+         margin-right: -5%;
          text-align: center;
          justify-content: center;
      }
   
    .footer_iconsakura{
      display: inline-flex;
-     margin-bottom: 15px;
-     margin-top: 15px;
-     width: 30px;
-      margin-right: 15px;
-      margin-left: 15px;
+     margin-bottom: 5px;
+     margin-top: 5px;
+      width: 10px;
+      margin-right: 5px;
+      margin-left: 5px;
    }
 
    .footer_1sakura{
-     width: 55%;
+     width: 120%;
    }
    .footer_sakura{
      background-color: #02316d;
@@ -394,6 +399,10 @@
          grid-template-columns: 1fr 0.3fr;
         justify-content: center;
          align-items: center;
+        }
+
+        .valores_mobile{
+          display: none;
         }
 
         .listado_sakura{
