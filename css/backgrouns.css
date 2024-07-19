@@ -16,9 +16,8 @@
 .context h1{
     text-align: center;
     color: #02316d;
-    font-size: 65px;
+    font-size: 25px;
 }
-
 .area{
     background: rgba(255, 255, 255, 0.2);
     background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
