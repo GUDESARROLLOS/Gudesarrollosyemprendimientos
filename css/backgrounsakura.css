@@ -13,7 +13,7 @@
 .title_1 h1{
     text-align: center;
     color: #02316d;
-    font-size: 35px;
+    font-size: 65px;
 }
 
 .title_2 {
@@ -24,7 +24,7 @@
 .title_2 h1{
     text-align: center;
     color: #02316d;
-    font-size: 35px;
+    font-size: 65px;
 }
 .area{
     background: rgba(255, 255, 255, 0.2);
@@ -393,7 +393,7 @@
         .listado_sakura{
             margin-top: 5px;
             width: 100%;
-            height: 200vh;
+            height: 140vh;
            }
 
         .container_slidersakura{
@@ -406,7 +406,7 @@
         }
         .img_sakura{ 
             width: 100vh;
-            height: 100%;
+            height: 90%;
             margin: 0;
             padding: 0;
         }
@@ -417,13 +417,13 @@
           "description img";
           grid-template-columns: 0.5fr 1fr;
           grid-gap: 5px;
-   
+          margin-top: 10px;
           justify-content: center;
           align-items: center;
          }
 
        .description_footersakura{
-             font-size: 20px;
+             font-size: 35px;
              color:#fffffff8;
              margin-top: 25px;
              margin-right: 25%;

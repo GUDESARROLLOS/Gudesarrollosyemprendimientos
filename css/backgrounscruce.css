@@ -381,13 +381,39 @@
             grid-template-areas:
             "description img";
             grid-template-columns: 1fr 0.3fr;
-           justify-content: center;
+             justify-content: center;
             align-items: center;
+            margin-left: 50px;
+            margin-right: -25px;
+            margin-top: -15px;
         }
         .img_cruce{ 
-            width: 100vh;
-            height: 100%;
+            width: 120vh;
+            height: 80vh;
         }
+
+        .listado_crucecomer{
+          margin-top: 5px;
+          width: 100%;
+          height: 80vh;
+         }
+
+      .container_slidercrucecomer{
+          display: grid;
+          grid-template-areas:
+          "description img";
+          grid-template-columns: 1fr 0.3fr;
+           justify-content: center;
+          align-items: center;
+          margin-left: 50px;
+          margin-right: -25px;
+          margin-top: -15px;
+      }
+      .img_crucecomer{ 
+          width: 120vh;
+          height: 80vh;
+      }
+
 
          .container_fcruce {
           display: grid;

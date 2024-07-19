@@ -198,7 +198,7 @@
     }
       .select{
         width: 100%;
-        top: 40%;
+        top: 28%;
         text-align: center;
         margin: auto;
         background-color:transparent;
@@ -238,6 +238,10 @@
        .buttons:hover{
            transform: scale(1.2);
        }
+       .ADFII{
+        width: 100%;
+        height: 100%;
+       }
 
          .container_f {
           display: grid;
@@ -245,32 +249,12 @@
           "description img";
           grid-template-columns: 0.5fr 1fr;
           grid-gap: 5px;
-         margin-top: 250px;
+          margin-top: 3px;
           justify-content: center;
           align-items: center;
-         }
-      
-         .container img{
-         width: 75%;
-         height: 90%;
-         margin-left: 25px;
-         border: none;
-         }
-
-         .listado{
-          margin-top: 5px;
-          width: 75%;
-          height: 200vh;
-        }
-    
-        .listado_elcruce{
-          margin-top: 10px;
-          width: 100%;
-          height: 100vh;
-        }
-        
+         } 
        .description_footer{
-             font-size: 20px;
+             font-size: 28px;
              color:#fffffff8;
              margin-top: 25px;
              margin-right: 25%;
@@ -282,9 +266,9 @@
          display: inline-flex;
          margin-bottom: 15px;
          margin-top: 15px;
-         width: 30px;
-          margin-right: 15px;
-          margin-left: 15px;
+        margin-right: 15px;
+        margin-left: 15px;
+         width: 100px;
        }
     
        .footer_1{
@@ -298,6 +282,7 @@
        .footer_text{
          text-decoration: none;
          color: #fffdfd;
+         margin-left: -55px;
        }
   }
 
